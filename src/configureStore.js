@@ -4,6 +4,7 @@ import { loadState, saveState } from './localStorage';
 import throttle from 'lodash/throttle';
 
 const addLoggingToDispatch = (store) => {
+  /* eslint-disable no-console */
   const rawDispatch = store.dispatch;
   if (!console.group) {
     return rawDispatch;
@@ -18,6 +19,7 @@ const addLoggingToDispatch = (store) => {
     console.groupEnd(action.type);
     return returnValue;
   };
+  /* eslint-enable no-console */
 };
 
 const configureStore = () => {
