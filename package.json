@@ -19,6 +19,7 @@
     "babel-polyfill": "^6.3.14",
     "lodash": "^4.13.1",
     "node-uuid": "^1.4.7",
+    "normalizr": "^2.1.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.1.2",
