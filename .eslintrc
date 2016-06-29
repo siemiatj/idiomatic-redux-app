@@ -11,7 +11,7 @@
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2,
     "semi": ["error", "always"],
-    "no-class-assign": false
+    "no-class-assign": 1
   },
   "plugins": [
     "react"
