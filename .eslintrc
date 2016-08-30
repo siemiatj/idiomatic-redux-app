@@ -10,6 +10,7 @@
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2,
+    "react/prefer-stateless-function": 1,
     "semi": ["error", "always"],
     "no-class-assign": 1
   },
